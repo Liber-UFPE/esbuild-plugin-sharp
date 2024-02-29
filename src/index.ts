@@ -28,13 +28,13 @@ export type ImageFormatOptions = OutputOptions
     | Jp2Options
     | TiffOptions;
 
-interface ImageFormat {
+export interface ImageFormat {
     name: keyof FormatEnum | AvailableFormatInfo,
     extension: string,
     options?: ImageFormatOptions
 }
 
-interface ImagesOptions {
+export interface ImagesOptions {
     webp?: boolean,
     avif?: boolean,
     includes?: string[],
@@ -54,7 +54,7 @@ const defaultOptions: ImagesOptions = {
     extraFormats: [],
 }
 
-function imagesPlugin(options: ImagesOptions = defaultOptions): Plugin {
+export function imagesPlugin(options: ImagesOptions = defaultOptions): Plugin {
     return {
         name: "esbuild-plugin-sharp",
         setup(build) {
