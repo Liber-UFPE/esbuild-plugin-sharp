@@ -1,0 +1,54 @@
+{
+  "name": "@liber-ufpe/esbuild-plugin-sharp",
+  "engines": {
+    "node": ">=18"
+  },
+  "version": "0.0.1",
+  "description": "esbuild plugin that uses sharp to create webp and avif versions for your images",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Liber-UFPE/esbuild-plugin-sharp.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/*.*"
+  ],
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "sharp",
+    "webp",
+    "avif",
+    "images"
+  ],
+  "author": {
+    "name": "Liber UFPE",
+    "url": "https://github.com/Liber-UFPE/"
+  },
+  "maintainers": [
+    {
+      "name": "Marcos Pereira",
+      "url": "https://github.com/marcospereira/"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Liber-UFPE/esbuild-plugin-sharp/issues"
+  },
+  "homepage": "https://github.com/Liber-UFPE/esbuild-plugin-sharp#readme",
+  "dependencies": {
+    "esbuild": "^0.20.1",
+    "picomatch": "^4.0.1",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.22",
+    "@types/picomatch": "^2.3.3",
+    "typescript": "^5.3.3"
+  }
+}
