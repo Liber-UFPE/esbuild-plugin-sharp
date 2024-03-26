@@ -2,6 +2,7 @@
 
 [![Build](https://github.com/Liber-UFPE/esbuild-plugin-sharp/actions/workflows/build.yml/badge.svg)](https://github.com/Liber-UFPE/esbuild-plugin-sharp/actions/workflows/build.yml)
 [![CodeQL](https://github.com/Liber-UFPE/esbuild-plugin-sharp/actions/workflows/codeql.yml/badge.svg)](https://github.com/Liber-UFPE/esbuild-plugin-sharp/actions/workflows/codeql.yml)
+![NPM Version](https://img.shields.io/npm/v/%40liber-ufpe%2Fesbuild-plugin-sharp)
 
 And esbuild plugin that generates webp and avif images out-of-the-box, and allows other formats supported by [sharp](https://github.com/lovell/sharp).
 
