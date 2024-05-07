@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/Liber-UFPE/esbuild-plugin-sharp#readme",
   "dependencies": {
-    "esbuild": "^0.20.1",
+    "esbuild": "^0.21.0",
     "picomatch": "^4.0.1",
     "sharp": "^0.33.2"
   },
