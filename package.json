@@ -3,7 +3,7 @@
   "engines": {
     "node": ">=18"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "esbuild plugin that uses sharp to create webp and avif versions for your images",
   "repository": {
     "type": "git",
